@@ -29,4 +29,4 @@
 - Run the app on mobile or web --> npm start
 - Also tested functionalities and responsiveness in different web platforms
 
-#### GIT link: https://github.com/manojkumar961996/FoodRecipeFinderMobileApp
+#### GIT link: https://github.com/manojkumar961996/FoodRecipeWebAppMP
