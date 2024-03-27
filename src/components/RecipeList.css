@@ -1,0 +1,95 @@
+.home {
+  max-width: 1200px;
+  /* Increase the max-width for a larger container */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* Ensure items wrap to the next row when necessary */
+  justify-content: center;
+  /* Center the items horizontally */
+}
+
+.card {
+  width: 250px;
+  /* Decrease the width of the card */
+  height: 300px;
+  /* Decrease the height of the card */
+  margin: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  /* Make the images fill the entire width of the container */
+  height: 50%;
+  /* Decrease the height of the image */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h5 {
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 15px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  background-color: #ffcc00;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add some gap between buttons */
+}
+
+.favorite-button,
+.favorites-recipes-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(3, 3, 3);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button:hover,
+.favorites-recipes-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: calc(50% - 20px);
+    /* Adjust the width of the card for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: calc(100% - 20px);
+    /* Adjust the width of the card for even smaller screens */
+  }
+}

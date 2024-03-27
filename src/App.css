@@ -1,0 +1,7 @@
+.background {
+  background-image: url('./assets/blog_background.jpg');
+  background-size: cover;
+  height: 760px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

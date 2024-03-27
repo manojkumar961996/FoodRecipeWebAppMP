@@ -1,0 +1,67 @@
+export const blogList = [
+  {
+    id: 1,
+    title: "The Healing Power of Lavender",
+    category: "Herbs & Flowers",
+    content: "Lavender is a versatile herb known for its calming properties. It has been used for centuries in aromatherapy and natural medicine. Lavender essential oil can help reduce stress, improve sleep, and alleviate headaches. Additionally, it's used in culinary arts to add a unique flavor to desserts and beverages.",
+    image: "http://localhost:3000/images/imageForAll.jpg",
+    image1: "http://localhost:3000/images/imageForAll.jpg",
+    image2: "http://localhost:3000/images/imageForAll.jpg",
+    comments: [
+      { id: 1, text: "I love the scent of lavender!" },
+      { id: 2, text: "Does lavender have any side effects?" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Benefits of Chamomile Tea",
+    category: "Herbs & Flowers",
+    content: "Chamomile tea is well-known for its soothing effects. It's often used as a natural remedy for insomnia and anxiety. Chamomile contains antioxidants that can promote better digestion and reduce inflammation. Regular consumption of chamomile tea can improve overall well-being and promote relaxation.",
+    image: "http://localhost:3000/images/imageForAll.jpg",
+    image1: "http://localhost:3000/images/imageForAll.jpg",
+    image2: "http://localhost:3000/images/imageForAll.jpg",
+    comments: [
+      { id: 1, text: "Chamomile tea helps me sleep better!" },
+      { id: 2, text: "Are there any caffeine-free alternatives?" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Rosemary: More Than Just a Spice",
+    category: "Herbs & Flowers",
+    content: "Rosemary is a fragrant herb used in various cuisines, but its benefits go beyond enhancing flavors. Rosemary contains compounds that may improve memory and brain function. It also has anti-inflammatory properties and can support digestion. Additionally, rosemary oil is used in aromatherapy for mental clarity and focus.",
+    image: "http://localhost:3000/images/imageForAll.jpg",
+    image1: "http://localhost:3000/images/imageForAll.jpg",
+    image2: "http://localhost:3000/images/imageForAll.jpg",
+    comments: [
+      { id: 1, text: "I didn't know rosemary had such benefits!" },
+      { id: 2, text: "How can I incorporate rosemary into my diet?" },
+    ],
+  },
+  {
+    id: 4,
+    title: "The Beauty of Sunflowers",
+    category: "Herbs & Flowers",
+    content: "Sunflowers are not only vibrant and beautiful but also have several health benefits. They are a good source of vitamin E, which is essential for skin health. Sunflower seeds are rich in nutrients and can be a healthy snack option. Additionally, sunflower oil is used in cooking and skincare products.",
+    image: "http://localhost:3000/images/imageForAll.jpg",
+    image1: "http://localhost:3000/images/imageForAll.jpg",
+    image2: "http://localhost:3000/images/imageForAll.jpg",
+    comments: [
+      { id: 1, text: "Sunflowers always brighten my day!" },
+      { id: 2, text: "Can I grow sunflowers in my garden?" },
+    ],
+  },
+  {
+    id: 5,
+    title: "The Magic of Lavender Oil",
+    category: "Herbs & Flowers",
+    content: "Lavender oil is extracted from lavender flowers and is renowned for its therapeutic properties. It is commonly used in aromatherapy to reduce stress and anxiety. Lavender oil can also promote better sleep and relieve headaches. When diluted, it can be applied topically for minor burns, insect bites, and skin irritations.",
+    image: "http://localhost:3000/images/imageForAll.jpg",
+    image1: "http://localhost:3000/images/imageForAll.jpg",
+    image2: "http://localhost:3000/images/imageForAll.jpg",
+    comments: [
+      { id: 1, text: "Lavender oil is my go-to for relaxation!" },
+      { id: 2, text: "Where can I buy pure lavender oil?" },
+    ],
+  },
+];
